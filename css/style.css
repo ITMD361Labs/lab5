@@ -13,3 +13,12 @@ header {
 	color: gold;
 	
 }
+
+table{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px; 
+	background: silver;
+	margin: 20px auto;
+	padding: 0px;
+}
+
