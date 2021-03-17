@@ -31,7 +31,7 @@ table{
 	color: rgb(255, 204, 0);
 }
 
-tr.picture{
+#picture{
 	width:10px;
 	height:10px;
 }
