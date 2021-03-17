@@ -1,7 +1,10 @@
-#wrapper {
+html{
 	background-image: url(../images/Background.jpg);
+}
+
+#wrapper {
 	width: 960px;
-	margin: 20x auto;
+	margin: auto;
 }
 
 header {
@@ -18,14 +21,30 @@ table{
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px; 
 	text-aling: center;
-	background: silver;
-	margin: 20px auto;
+	background: black;
+	margin: 20px auto 20px auto;
 	padding: 0px;
 }
 
+#TableHeaders{
+	font-size: 20px;
+	
+}
+#SaturnInfo{
+
+}
+
+#NeptuneInfo{
+
+}
+#MercuryInfo{
+
+}
+#JupiterInfo{
+
+}
 td{
 	padding: 5px 10px;
 	text-align: center;
 	border: 2px solid white;
-	
 }
