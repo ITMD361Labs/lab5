@@ -10,6 +10,7 @@ html{
 header {
 	font-family: 'Cormorant Unicase', serif;
 	font-size: 30px;
+	font-weight: 900;
 	text-align: center;
 	margin: 5px auto;
 	padding: 30px 0;
@@ -24,27 +25,36 @@ table{
 	background: black;
 	margin: 20px auto 20px auto;
 	padding: 0px;
+	color: rgb(255, 204, 0);
 }
 
 #TableHeaders{
 	font-size: 20px;
+	color: gold;
 	
 }
 #SaturnInfo{
-
+	color: rgb(204, 153, 0);
 }
 
 #NeptuneInfo{
-
+	color: rgb(51, 153, 255);
 }
 #MercuryInfo{
-
+	color: gray;
 }
 #JupiterInfo{
-
+	color: #adad85;
 }
 td{
 	padding: 5px 10px;
 	text-align: center;
 	border: 2px solid white;
+}
+#moreInfo{
+	text-align: center;
+	font-size: 15px;
+}
+span{
+	font-family: 'Lucida Handwriting', cursive;
 }
