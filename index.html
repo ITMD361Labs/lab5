@@ -3,25 +3,75 @@
 	<head>
 		<meta charset="UTF-8">
 		<title> Planets</title>
-		<link rel = "stylesheet" href ="style.css"/>
+		<link rel = "stylesheet" href ="css/style.css"/>
+		<link rel = "resetsheet" href ="css/reset.css"/>
 	</head>
 	<body>
-		<div>
-			<h1>Interesting Facts About Planets</h1>
-		</div>
+		<header>
+			<h1>Planets of the Roman gods</h1>
+		</header>
 		<div>
 			<table>
-				<tr>
+				<tr id = "TableHeaders">
 					<td>Planet Name</td>
 					<td>Planet Image</td>
-					<td>Mass (kg)</td>
-					<td>Diameter (km)</td>
-					<td>Mean Density</td>
-					<td>Escape Velocity</td>
+					<td>Mass <span>(kg)</span></td>
+					<td>Diameter <span>(km)</span></td>
+					<td>Mean Density <span>(kg/m<sup>3</sup>)</span></td>
+					<td>Escape Velocity <span>(m/s)</span></td>
 					<td>Average Distance From Sun</td> 
-					<td>Rotation Period</td> 
-					<td>Revolution Period</td>	
+					<td>Rotation Period <span>(in Earth Days)</span></td> 
+					<td>Revolution Period <span>(in Earth Years)</span></td>	
 				</tr>
-			</table>	
+				<tr id = "SaturnInfo">
+					<td>Saturn</td>
+					<td><img src = "images/Saturn.jpeg"></td>
+					<td>5.69 x 10<sup>26</sup></td>
+					<td>120660</td>
+					<td>690</td>
+					<td>35600</td>
+					<td>9.537 AU <span>(1,426,725,400 km)</span></td>
+					<td>0.44 <span>(10.2 Earth hours)</span></td>
+					<td>29.46</td>
+					
+				</tr>
+				<tr id = "NeptuneInfo">
+					<td>Neptune</td>
+					<td><img src = "images/Neptune.jpeg"></td>
+					<td>1.02 x 10<sup>26</sup></td>
+					<td>49528</td>
+					<td>1640</td>
+					<td>23300</td>
+					<td>30.07 AU <span>(4,498,252,900 km)</span></td>
+					<td>0.67 <span>(19.1 hours)</span></td>
+					<td>60,190 <span>(164.8 Earth years)</span></td>
+				</tr>
+				<tr id = "MercuryInfo">
+					<td>Mercury</td>
+					<td><img src = "images/Mercury.jpeg"></td>
+					<td>3.3 x 10<sup>23</sup></td>
+					<td>4879.4</td>
+					<td>5420</td>
+					<td>4300</td>
+					<td>0.387 AU <span>(57,909,175 km)</span></td>
+					<td>58.65</td>
+					<td>87.97</td>
+				</tr>
+				<tr id = "JupiterInfo">
+					<td>Jupiter</td>
+					<td><img src = "images/Jupiter.jpeg"></td>
+					<td>1.90 x 10<sup>27</sup></td>
+					<td>142,800</td>
+					<td>1314</td>
+					<td>59500</td>
+					<td>5.203 AU <span>(778,412,020 km)</span></td>
+					<td>0.41 <span>(9.8 Earth hours)</span></td>
+					<td>11.86</td>
+				</tr>
+			</table>
+		</div>
+		<div>
+			<p id = "moreInfo">More information on more planets can be found on this NASA <a href ="https://pds.nasa.gov/planets/special/planets.htm">Website</a></p>
+		</div>
 	</body>
 </html>
