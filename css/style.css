@@ -9,7 +9,7 @@ html{
 
 header {
 	font-family: 'Cormorant Unicase', serif;
-	font-size: 30px;
+	font-size: 35px;
 	font-weight: 900;
 	text-align: center;
 	margin: 5px auto;
@@ -20,19 +20,25 @@ header {
 
 table{
 	font-family: 'Raleway', sans-serif;
-	font-size: 16px; 
+	font-size: 20px; 
 	text-aling: center;
 	background: black;
-	margin: 20px 50px 30px 50px
+	margin: 30px 50px 20px 50px;
 	padding: 0px;
 	color: rgb(255, 204, 0);
 }
-
-#TableHeaders{
-	font-size: 20px;
-	color: gold;
-	
+tr.planetTitle{
+	font-size = 25px;
 }
+tr.picture{
+	width:15px;
+	height:15px;
+}
+#TableHeaders{
+	font-size: 25px;
+	color: gold;
+}
+
 #SaturnInfo{
 	color: rgb(204, 153, 0);
 }
@@ -52,8 +58,10 @@ td{
 	border: 2px solid white;
 }
 #moreInfo{
+	font-family: 'Papyrus', fantasy;
 	text-align: center;
-	font-size: 15px;
+	font-size: 25px;
+	color: gold;
 }
 span{
 	font-family: 'Lucida Handwriting', cursive;
