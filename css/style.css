@@ -1,7 +1,7 @@
 #wrapper {
-	background-image: url(../images/background.jpeg);
+	background-image: url(../images/Background.jpg);
 	width: 960px;
-	margin: 0 auto;
+	margin: 20x auto;
 }
 
 header {
@@ -17,8 +17,15 @@ header {
 table{
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px; 
+	text-aling: center;
 	background: silver;
 	margin: 20px auto;
 	padding: 0px;
 }
 
+td{
+	padding: 5px 10px;
+	text-align: center;
+	border: 2px solid white;
+	
+}
