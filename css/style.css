@@ -1,5 +1,7 @@
 html{
 	background-image: url(../images/Background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #wrapper {
@@ -21,16 +23,17 @@ header {
 table{
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px; 
-	text-aling: center;
+	text-align: center;
 	background: black;
-	margin: 30px 50px 20px 50px;
+	margin: 50px auto;
 	padding: 0px;
+	width: 150%;
 	color: rgb(255, 204, 0);
 }
-tr.planetTitle{
+.planetTitle{
 	font-size = 25px;
 }
-tr.picture{
+.picture{
 	width:15px;
 	height:15px;
 }
