@@ -22,7 +22,7 @@ header {
 
 table{
 	font-family: 'Raleway', sans-serif;
-	font-size: 15px; 
+	font-size: 20px; 
 	text-align: center;
 	background: black;
 	margin: 60px auto;
@@ -30,7 +30,7 @@ table{
 	color: rgb(255, 204, 0);
 }
 td{
-	font-size:10px;
+	font-size:20px;
 	padding: 5px;
 	text-align: center;
 	padding: 10px;
@@ -39,9 +39,9 @@ td{
 tr .planetName{
 	font-size:20px;
 }
-#picture{
-	width:10px;
-	height:10px;
+tr #picture{
+	width:5px;
+	height:5px;
 }
 #TableHeaders{
 	font-size: 20px;
